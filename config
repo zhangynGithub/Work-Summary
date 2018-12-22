@@ -1,0 +1,10 @@
+# gitlab
+Host 192.168.5.166
+    HostName 192.168.5.166
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/sysware-rsa
+# github
+Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/personal-rsa
